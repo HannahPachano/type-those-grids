@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .75rem;
+}
